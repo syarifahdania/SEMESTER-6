@@ -1,0 +1,815 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dania\Downloads\product_sales_dataset_final.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>product_sales_dataset_final.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order_ID" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Order_Date" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Customer_Name" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Sub_Category" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Product_Name" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Unit_Price" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Revenue" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\dania\Downloads\product_sales_dataset_final.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dania\Downloads\products.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>products.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product_id" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="product_name" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="brand" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="category" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="sub_category" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="rating" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="review_count" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="stock_status" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="tags" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+            <Field name="description" size="254" source="File: C:\Users\dania\Downloads\products.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\dania\Downloads\retail_pricing_demand_100k.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>retail_pricing_demand_100k.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="product_id" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="category" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="brand" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="region" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="channel" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="season" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="base_price" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="current_price" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="price_change_pct" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="discount_pct" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="promotion_type" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="units_sold" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="revenue" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="inventory_level" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="stockout_flag" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+            <Field name="demand_index" size="254" source="File: C:\Users\dania\Downloads\retail_pricing_demand_100k.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="product_id" selected="True" type="String" size="8192" />
+            <SelectField field="price" selected="True" type="Double" size="8" />
+            <SelectField field="rating" selected="True" type="Double" size="8" />
+            <SelectField field="review_count" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>DS2</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="date" selected="True" type="Date" size="10" />
+            <SelectField field="product_id" selected="True" type="String" size="8192" />
+            <SelectField field="base_price" selected="True" type="Double" size="8" />
+            <SelectField field="current_price" selected="True" type="Double" size="8" />
+            <SelectField field="price_change_pct" selected="True" type="Double" size="8" />
+            <SelectField field="discount_pct" selected="True" type="Int32" size="4" />
+            <SelectField field="units_sold" selected="True" type="Int32" size="4" />
+            <SelectField field="revenue" selected="True" type="Double" size="8" />
+            <SelectField field="inventory_level" selected="True" type="Int32" size="4" />
+            <SelectField field="stockout_flag" selected="True" type="Bool" size="1" />
+            <SelectField field="demand_index" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>DS1</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="186" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Order_ID" />
+            <Field name="Order_Date" />
+            <Field name="Customer_Name" />
+            <Field name="City" />
+            <Field name="State" />
+            <Field name="Region" />
+            <Field name="Country" />
+            <Field name="Category" />
+            <Field name="Sub_Category" />
+            <Field name="Product_Name" />
+            <Field name="Quantity" />
+            <Field name="Unit_Price" />
+            <Field name="Revenue" />
+            <Field name="Profit" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>Trim([_CurrentField_])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order_ID" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Order_Date" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Customer_Name" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Sub_Category" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Product_Name" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Unit_Price" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Revenue" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\ybzah\OneDrive\Desktop\UTM\Sem 6\Business INtelligence\Dataset Project BI\product_sales_dataset_final.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="306" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Order_Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM-dd-yy</Format>
+          <OutputFieldName>Order_date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Order_Date From:
+MM-dd-yy (e.g. 08-23-23)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Order_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Order_Date" selected="False" />
+            <SelectField field="Quantity" selected="True" type="Int32" size="4" />
+            <SelectField field="Unit_Price" selected="True" rename="Unit_price" type="Double" size="8" />
+            <SelectField field="Revenue" selected="True" type="Double" size="8" />
+            <SelectField field="Profit" selected="True" type="Double" size="8" />
+            <SelectField field="Order_date2" selected="True" rename="Order_date" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>DS3</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="706" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Order_ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>M2_Unique_DS3_ProductSales</Name>
+          <DefaultAnnotationText>M2_Unique_DS3_ProductSales</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="856" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Revenue] &gt; 0 AND [Quantity] &gt; 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>M2_Filter_DS3_ProductSales</Name>
+          <DefaultAnnotationText>[Revenue] &gt; 0 AND [Quantity] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="706" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="product_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>M2_Unique_DS2_Products</Name>
+          <DefaultAnnotationText>M2_Unique_DS2_Products</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="706" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="date" />
+            <Field field="product_id" />
+            <Field field="region" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>M2_Unique_DS1_RetailPricing</Name>
+          <DefaultAnnotationText>M2_Unique_DS1_RetailPricing</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="858" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[units_sold] &gt;= 0 AND [revenue] &gt; 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>M2_Filter_DS1_RetailPricing</Name>
+          <DefaultAnnotationText>[units_sold] &gt;= 0 AND [revenue] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings>
+        <Position x="606" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Order_ID","Customer_Name","City","State","Region","Country","Category","Sub_Category","Product_Name","Quantity","Unit_Price","Revenue","Profit","Order_date"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings>
+        <Position x="558" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"product_id","product_name","brand","category","sub_category","price","rating","review_count","stock_status","tags","description"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings>
+        <Position x="558" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"promotion_type"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="990" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="product_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="product_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_product_id" selected="True" rename="Right_product_id" input="Right_" />
+                <SelectField field="Right_brand" selected="True" rename="Right_brand" input="Right_" />
+                <SelectField field="Right_category" selected="True" rename="Right_category" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(Left([Order_Date], 2))" field="Order_Month" size="4" type="Int32" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Order_Month = ToNumber(Left([Order_Date], 2))
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="942" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Category" action="GroupBy" rename="Category" />
+            <SummarizeField field="Order_Month" action="GroupBy" rename="Order_Month" />
+            <SummarizeField field="Revenue" action="Sum" rename="Total Revenue" />
+            <SummarizeField field="Quantity" action="Sum" rename="Total Quantity" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1098" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1170" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [category] == &quot;Apparel&quot; THEN &quot;Clothing &amp; Apparel&quot;&#xA;ELSEIF [category] == &quot;Shoes&quot; THEN &quot;Clothing &amp; Apparel&quot;&#xA;ELSEIF [category] == &quot;Home&quot; THEN &quot;Home &amp; Furniture&quot;&#xA;ELSEIF [category] == &quot;Electronics&quot; THEN &quot;Electronics&quot;&#xA;ELSEIF [category] == &quot;Accessories&quot; THEN &quot;Accessories&quot;&#xA;ELSE [category]&#xA;ENDIF" field="category" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>category = IF [category] == "Apparel" THEN "Clothing &amp; Apparel"
+ELSEIF [category...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1290" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="category" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Category" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Category" selected="True" rename="Right_Category" input="Right_" />
+                <SelectField field="Left_Right_category" selected="True" rename="Left_Right_category" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1398" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1482" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dania\AppData\Local\Temp\Alteryx\Engine_33572_bd1b27f7a9404f868989d315eb0a6a7a_\Engine_33572_4fcd14b188434c2f9327852b0d051635~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="44" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="45" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Unique" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Unique" />
+      <Destination ToolID="55" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="True" />
+      <Destination ToolID="55" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Unique" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output26" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output26" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Left" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="43" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Left" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SkinAqua_ProjectWorkflow_Phase2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="51fb6933-f0fe-4963-9f9c-638ad99d6f18" />
+      <Telemetry>
+        <PreviousWorkflowId value="d694cc97-b30e-4dd9-873b-c7a5f6862b2a" />
+        <OriginWorkflowId value="f8244378-5659-4e3d-bf57-e70185bf0fad" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
